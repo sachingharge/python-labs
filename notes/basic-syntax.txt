@@ -1,0 +1,49 @@
+Here are naming conventions for Python identifiers −
+
+Class names start with an uppercase letter. All other identifiers start with a lowercase letter.
+
+Starting an identifier with a single leading underscore indicates that the identifier is private.
+
+Starting an identifier with two leading underscores indicates a strongly private identifier.
+
+If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.
+
+Reserved Words
+The following list shows the Python keywords. These are reserved words and you cannot use them as constant or variable or any other identifier names. All the Python keywords contain lowercase letters only.
+
+and	exec	Not
+as	finally	or
+assert	for	pass
+break	from	print
+class	global	raise
+continue	if	return
+def	import	try
+del	in	while
+elif	is	with
+else	lambda	yield
+except
+
+
+Lines and Indentation
+Python doesn't use braces({}) to indicate blocks of code for class and function definitions or flow control. Blocks of code are denoted by line indentation, which is rigidly enforced.
+
+The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount. For example −
+if True:
+    print ("True")
+else:
+  print ("False")
+However, the following block generates an error −
+
+if True:
+    print ("Answer")
+    print ("True")
+else:
+    print "(Answer")
+  print ("False")
+
+Python has five standard data types −
+Numbers
+String
+List
+Tuple
+Dictionary
